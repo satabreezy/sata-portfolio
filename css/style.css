@@ -1,0 +1,175 @@
+/* Defaulty stlye */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: eecee;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+nav.Logo{
+  text-decoration: none;
+  color:#fff;
+  font: 22px;
+  list-style: none;
+}
+.span{
+  color: teal;
+}
+nav ul{
+  display: flex;
+  gap: 30px;
+}
+nav ul li{
+  list-style: none;
+  
+}
+nav ul li a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: blue;
+}
+
+#hero,
+#about,
+#portofolio,
+#contact {
+  padding: 120px 0;
+}
+/* hero */
+#hero {
+  background-color: beige;
+}
+/* about */
+#about {
+  background-color: teal;
+}
+.all{
+  display: flex;
+}
+#about h3{
+  color: black;
+  font-size: 30px;
+}
+#about p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#button-1{
+  border-radius: 5px;
+  background-color: skyblue;
+  color: #fff;
+  margin-top: 20px;
+  border: 2px solid skyblue;
+  width: 120px;
+  height: 30px;
+}
+#right{
+  padding-left: 100px;
+}
+#image img{
+  border-radius: 20px;
+}
+
+/* recent-project */
+#portfolio {
+  background-color: skyblue;
+  height: 500px;
+}
+#portfolio h2{
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#div-all{
+  border-radius: 30px;
+  background-color: grey;
+  width: 400px;
+  height:150px;
+  pad: 10px;
+  padding-top: 20px;
+}
+.project{
+  display: flex;
+}
+#photo img{
+  border-radius: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.badges{
+  display: flex;
+  gap: 10px;
+}
+#span1{
+  border-radius: 2px;
+  background-color: skyblue;
+  color: #fff;
+  width: 60px;
+  text-align: center;
+}
+#span2{
+  border-radius: 5px;
+  background-color: skyblue;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+}
+#span3{
+  border-radius: 5px;
+  background-color: skyblue;
+  color: #fff;
+  text-align: center;
+  
+}
+
+/* my contact */
+#contact {
+  background-color: rgb(174, 182, 180);
+}
+#contact-all{
+  display: flex; 
+}
+#form-div{
+  padding-left: 50px;
+  background-color: skyblue;
+  border-radius: 10px;
+  width: 300px;
+  padding-top: 20px;
+  height: 200px;
+}
+#contact-5{
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+#button-2{
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+}
