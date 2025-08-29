@@ -63,6 +63,29 @@ nav ul li a:hover {
 #hero {
   background-color: beige;
 }
+#hero h1{
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+#hero h4{
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+#hero button{
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+#hero button:hover{
+  background-color: rgb(236, 236, 209);
+}
 /* about */
 #about {
   background-color: teal;
