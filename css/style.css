@@ -112,9 +112,12 @@ nav ul li a:hover {
 }
 #right {
   padding-left: 100px;
+  display: flex;
+   justify-content: center;
 }
 #image img {
-  border-radius: 20px;
+  border-radius:20px;
+  box-shadow: 2px 4px 20px; 
 }
 
 /* recent-project */
